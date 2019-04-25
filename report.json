@@ -1,0 +1,39 @@
+{
+  "Students": [
+    {
+      "Classroom Name": "Python",
+      "First Name": "John",
+      "Last Name": "Doe",
+      "Score": [
+        40,
+        60,
+        70
+      ],
+      "Attendance": 2
+    },
+    {
+      "Classroom Name": "Python",
+      "First Name": "Franta",
+      "Last Name": "Lala",
+      "Score": [],
+      "Attendance": 0
+    },
+    {
+      "Classroom Name": "Math",
+      "First Name": "Alan",
+      "Last Name": "Turing",
+      "Score": [],
+      "Attendance": 0
+    },
+    {
+      "Classroom Name": "Math",
+      "First Name": "John",
+      "Last Name": "Doe",
+      "Score": [
+        40,
+        50
+      ],
+      "Attendance": 1
+    }
+  ]
+}
