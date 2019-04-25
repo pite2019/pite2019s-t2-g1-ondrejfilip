@@ -61,9 +61,11 @@ def main():
 
     classroom1 = ClassRoom('Python')
     classroom2 = ClassRoom('Math')
+    classroom3 = ClassRoom('Physics')
 
     classrooms_list.append(classroom1)
     classrooms_list.append(classroom2)
+    classrooms_list.append(classroom3)
 
     student1 = Student('s1', 'John', 'Doe')
     student2 = Student('s2', 'Franta', 'Lala')
@@ -73,12 +75,15 @@ def main():
     classroom1.add_student(student2)
     classroom2.add_student(student3)
     classroom2.add_student(copy.deepcopy(student1))
+    classroom3.add_student(copy.deepcopy(student3))
 
     classroom1.add_score(student1.id, 40)
     classroom1.add_score(student1.id, 60)
     classroom1.add_score(student1.id, 70)
     classroom2.add_score(student1.id, 40)
     classroom2.add_score(student1.id, 50)
+    classroom2.add_score(student2.id, 30)
+    classroom3.add_score(student3.id, 50)
 
     classroom1.add_attendance(student1.id)
     classroom1.add_attendance(student1.id)
